@@ -1,0 +1,34 @@
+.projects {
+    margin: 5rem 0 11rem 0;
+}
+
+.project-list {
+    margin: 3rem;
+}
+
+a {
+   color: black;
+}
+
+.code-button {
+    color: white;
+    background-color: black;
+}
+
+.project-contents {
+    display: block;
+}
+
+.project-details {
+    margin: auto;
+}
+
+.project-photo {
+    display: block;
+    overflow: hidden;
+}
+
+.gallery {
+    height: 300px;
+    width: 450px;
+}
