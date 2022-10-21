@@ -1,0 +1,15 @@
+#footer {
+    /* background-color: #000;  */
+    height: 150px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+
+.social-icons {
+   margin-top: 2%;
+}
