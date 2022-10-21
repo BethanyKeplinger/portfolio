@@ -1,18 +1,25 @@
 import React from "react";
+import { motion } from "framer-motion";
+import resume from "../files/resume.pdf";
+import linkedin from "../img/linkedin.svg";
 
 export default function Navbar() {
     return (
         <header className="md:sitcky">
            
-                <nav className="navbar navbar-expand-lg bg-light">
-                    <div className="containter-fluid"> 
-                        <div className="collapse navbar-collapse">
-                            <a href="#home" className="navbar-brand">B | K</a>
+                <nav className="navbar navbar-dark navbar-expand-lg bg-dark">
+                    <div className="container-fluid"> 
+                        {/* <div className="collapse navbar-collapse"> */}
+                            <motion.a
+                                whileHover={{scale:1.2}} 
+                                href="#home" className="navbar-brand">B | K</motion.a>
                             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>
                             </button>
 
-                            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                            {/* <div className="collapse navbar-collapse" id="navbarSupportedContent"> */}
+
+                            <ul className="navbar-nav ml-auto mb-auto mb-lg-0 ">
 
                                 <li className="nav-item">
                                     <a href="#about" className="nav-link active" aria-current="page">About</a>
@@ -29,9 +36,14 @@ export default function Navbar() {
                                 <li className="nav-item">
                                     <a href="#contact" className="nav-link">Contact</a>
                                 </li>
+
+                                <li className="nav-item">
+                                    <a className="btn btn-sm btn-outline-secondary resume-button-nav" href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
+                                </li>
                 
                             </ul>
-                        </div>
+                            {/* </div> */}
+                        {/* </div> */}
                     </div>
                 </nav>
         </header>
