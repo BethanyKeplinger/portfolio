@@ -1,4 +1,26 @@
 #about {
-    margin: 20px;
+    margin: 20px 0 0 5%;
+    min-height: 400px;
+}
 
+.headshot {
+    height: 350px;
+    width: 270px;
+}
+
+.about-contents {
+    margin: auto;
+}
+
+.resumebtn-container {
+	text-align: center;
+	position: relative;
+	width: 300px;
+	cursor: pointer;
+}
+
+.resume-button {
+    color: #fff;
+    margin-top: 5px;
+    border-radius: 0%;
 }
