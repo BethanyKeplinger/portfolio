@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/BethanyKeplinger/portfolio/static/css/main.2867b037.css",
+    "main.js": "/BethanyKeplinger/portfolio/static/js/main.dc46527e.js",
+    "static/js/787.1ed0c42c.chunk.js": "/BethanyKeplinger/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/react-movie-view.png": "/BethanyKeplinger/portfolio/static/media/react-movie-view.1589587580a5164632d3.png",
+    "static/media/profile-view.png": "/BethanyKeplinger/portfolio/static/media/profile-view.61d7e05909b728f572e6.png",
+    "static/media/chatapp.png": "/BethanyKeplinger/portfolio/static/media/chatapp.4964910985fd3216d93c.png",
+    "static/media/bethany.jpg": "/BethanyKeplinger/portfolio/static/media/bethany.823f0cb6db468ecced4e.jpg",
+    "static/media/resume.pdf": "/BethanyKeplinger/portfolio/static/media/resume.0cc0fffdbc46cbef3fa6.pdf",
+    "static/media/MeetApp.png": "/BethanyKeplinger/portfolio/static/media/MeetApp.e0df5becd176bfde7fe6.png",
+    "static/media/charmander.png": "/BethanyKeplinger/portfolio/static/media/charmander.407e3da21c5469463f13.png",
+    "static/media/github.svg": "/BethanyKeplinger/portfolio/static/media/github.2c9fcdd316e8e624dffe7b706672a418.svg",
+    "static/media/twitter.svg": "/BethanyKeplinger/portfolio/static/media/twitter.785b7ab99f0d0db5033c92de4606fcea.svg",
+    "static/media/linkedin.svg": "/BethanyKeplinger/portfolio/static/media/linkedin.d3d6ec1d5fc090fa459b3b540f371bf9.svg",
+    "index.html": "/BethanyKeplinger/portfolio/index.html",
+    "main.2867b037.css.map": "/BethanyKeplinger/portfolio/static/css/main.2867b037.css.map",
+    "main.dc46527e.js.map": "/BethanyKeplinger/portfolio/static/js/main.dc46527e.js.map",
+    "787.1ed0c42c.chunk.js.map": "/BethanyKeplinger/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2867b037.css",
+    "static/js/main.dc46527e.js"
+  ]
+}
