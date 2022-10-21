@@ -2,7 +2,8 @@ import photo1 from "./img/profile-view.png";
 import photo2 from "./img/react-movie-view.png";
 import photo3 from "./img/MeetApp.png";
 import photo4 from "./img/chatapp.png";
-import photo5 from "./img/charmander.png"
+import photo5 from "./img/charmander.png";
+// import casestudy1 from "./components/CaseStudy1";
 
 export const projects = [
     {
@@ -12,7 +13,8 @@ export const projects = [
         image: photo1,
         linkdemo: "https://bethanykeplinger.github.io/myFlix-Angular-client/welcome",
         linkcode: "https://github.com/BethanyKeplinger/myFlix-Angular-client",
-        login: "Username: testing1234 Password: testing1234"
+        login: "Username: testing1234 Password: testing1234",
+        casestudy: "#casestudy1"
 
     },
 
