@@ -9,7 +9,7 @@ export default function Projects() {
         <section className="projects" id="projects">
             <div className="container text-center" >
                 <div className="heading">
-                    <h1>Projects I've built</h1>
+                    <h1>Projects</h1>
                     {/* <p>Description</p> */}
                 </div>
 
@@ -31,7 +31,8 @@ export default function Projects() {
                                     <h2 className="project-subtitle">{project.subtitle}</h2>
                                     <p className="project-description">{project.description}</p>
                                     <p className="login-info">{project.login}</p>
-                                    <a href={project.linkcode} target="_blank" rel="noreferrer" className="btn code-button" role="button">See code</a>
+                                    <a href={project.linkdemo} target="_blank" rel="noreferrer" className="btn code-button" role="button">Demo</a>
+                                    <a href={project.linkcode} target="_blank" rel="noreferrer" className="btn code-button" role="button">Code</a>
                                 </div>
                             </div>
                              
