@@ -5,10 +5,19 @@
 
 .project-list {
     margin: 3rem 0 3rem 0;
+    
+
 }
 
-h2 {
-    font-size: 18px ;
+.projects-title {
+    color: #317773;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.project-subtitle {
+    font-size: 16px ;
 }
 
 .code-button {
@@ -19,18 +28,18 @@ h2 {
 
 .project-contents {
     display: block;
+    justify-content: center;
 }
 
 .project-details {
     margin: auto;
-}
-
-.project-photo {
-    display: block;
-    overflow: hidden;
+    padding: 2%;
+    background-color: #f7f2fa;
+    border-radius: 10%;
 }
 
 .gallery {
-    height: 250px;
-    width: 400px;
+    height: 300px;
+    width: 450px;
+    border-radius: 10%;
 }

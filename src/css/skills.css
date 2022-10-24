@@ -1,4 +1,12 @@
+#skills {
+    min-height: 100px;
+    margin-top: 5%;
+}
+
 .skills {
     text-align: center;
+    justify-content: center;
     font-size: large;
+    color: #317773;
+    font-weight: 700;
 }

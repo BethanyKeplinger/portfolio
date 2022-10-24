@@ -1,12 +1,13 @@
 #home {
-	margin: 100px 0 0 0;
+	margin-top: 10%;
 	font-weight: 700;
-	min-height: 400px;
+	min-height: 300px;
 }
 
 .name-span {
-	color: darkcyan
+	color: teal
 }
+
 .subtitle {
 	margin-bottom: 4rem;
 }
@@ -21,7 +22,11 @@
 }
 
 .projects-button {
-	color: #fff;
+	/* color: #fff; */
 	margin-left: 30px;
 	border-radius: 0%;
+	background-color: #317773;
+	color: #E2D1F9;
 }
+
+                       
