@@ -14,7 +14,7 @@ export default function Home () {
                         duration: 2
                     }}
                     >
-                    <h1 className="display-4 hero-title"> Hi, I'm <span className="name-span">Bethany Keplinger,</span></h1>
+                    <h1 className="display-3 hero-title"> Hi, I'm <span className="name-span">Bethany Keplinger,</span></h1>
                     <p className="lead subtitle">I'm a Software Engineer. </p>
                 </motion.div>
 
