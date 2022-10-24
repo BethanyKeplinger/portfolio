@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import resume from "../files/resume.pdf";
-import linkedin from "../img/linkedin.svg";
 
 export default function Navbar() {
     return (
