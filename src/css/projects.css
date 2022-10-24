@@ -7,8 +7,8 @@
     margin: 3rem 0 3rem 0;
 }
 
-a {
-   color: black;
+h2 {
+    font-size: 18px ;
 }
 
 .code-button {
@@ -31,6 +31,6 @@ a {
 }
 
 .gallery {
-    height: 300px;
-    width: 450px;
+    height: 250px;
+    width: 400px;
 }
