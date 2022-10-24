@@ -14,19 +14,21 @@ export default function Home () {
                         duration: 2
                     }}
                     >
-                    <h1 className="display-3 hero-title"> Hi, I'm <span className="name-span">Bethany Keplinger,</span></h1>
-                    <p className="lead subtitle">I'm a Software Engineer. </p>
+                    <h1 className="display-3 hero-title"> Hi, I'm 
+                        <motion.span 
+
+                        className="name-span"> Bethany Keplinger.</motion.span></h1>
+                        <p className="lead subtitle">I'm a Software Engineer. </p>
                 </motion.div>
 
                 <div className="button-container">
                     <motion.a 
-                        animate={{backgroundColor: "#ae6bf2"}}
-                        transition= {{duration: "1", type: "tween"}}
-                        whileHover={{backgroundColor: "#3a6df0", 
-                            color: "white",                  
+                        transition= {{duration: ".8", type: "tween"}}
+                        whileHover={{backgroundColor: "#E2D1F9", 
+                            color: "#317773",                  
                             boxShadow: "0px 0px 8px (rgb 255, 255, 255)",
                         }}
-                        href="#projects" className="btn btn-lg projects-button" role="button" >Take a Look <div className="fill"></div>
+                        href="#projects" className="btn btn-lg projects-button" role="button" >Take a Look
                     </motion.a>
                 </div>
 
