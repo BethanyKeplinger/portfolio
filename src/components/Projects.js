@@ -16,7 +16,7 @@ export default function Projects() {
                         {projects.map((project) => (
                             <div  className="row align-items-center project-list" key={project.image}>
 
-                                <div className="col project-details">
+                                <div className="col-sm-6 project-details">
                                     <h1 className="project-title">{project.title}</h1>
                                     <h2 className="project-subtitle">{project.subtitle}</h2>
                                     <p className="project-description">{project.description}</p>
@@ -24,7 +24,7 @@ export default function Projects() {
                                     <a href={project.linkdemo} target="_blank" rel="noreferrer" className="btn code-button" role="button">Demo</a>
                                     <a href={project.linkcode} target="_blank" rel="noreferrer" className="btn code-button" role="button">Code</a>
                                 </div>
-                                <motion.div className="col project-photo" 
+                                <motion.div className="col-sm-6 project-photo" 
                                     whileHover={{scale: 1.1}}>
                                     <a href={project.linkdemo} target="_blank" rel="noreferrer">
                                         <img 
