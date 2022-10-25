@@ -7,12 +7,12 @@ import resume from "../files/resume.pdf";
 export default function About() {
     return (
         <section id="about">
-            <div className="container about-section">
+            <div className="container-fluid about-section">
                 <div className="row">
-                    <div className="col-4">
+                    <div className="col-sm-4">
                         <img src={bethany} className="headshot" alt="Headshot of Bethany Keplinger looking at the camera with plants on shelves behind her"></img>
                     </div>
-                    <div className="col-8 about-contents">
+                    <div className="col-lg-8 about-contents">
                         <p>I’m a web developer living in Portland, Maine seeking to support environmental
                         sustainability in my work life. After several years in childhood
                         development, I enrolled in a coding bootcamp and it turned out that programming required many similar
