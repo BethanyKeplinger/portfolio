@@ -9,7 +9,7 @@ export const projects = [
     {
         title: "myFlix [Angular]",
         subtitle: "MEAN Stack",
-        description: "Users will be able to register for an account, log in and see a list of 10 different movies. The movies displayed include a synopsis, a brief biography of the director, and a brief definition of the movies genre. Users can then add movies to their Favorite List where they can view them all on their Profile Page. I was responsible for the frontend development of this project and used Angular Material to create the User Interface.",
+        description: "Users will be able to register for an account, log in and see a list of 10 different movies. The movies displayed include a synopsis, a brief biography of the director, and a brief definition of the movies genre. I was responsible for the frontend development of this project and used Angular Material to create the User Interface.",
         image: photo1,
         linkdemo: "https://bethanykeplinger.github.io/myFlix-Angular-client/welcome",
         linkcode: "https://github.com/BethanyKeplinger/myFlix-Angular-client",
