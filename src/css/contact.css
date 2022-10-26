@@ -1,5 +1,6 @@
 #contact {
-    background-color: #f7f2fa;
+    /* background-color: #f7f2fa; */
+    background: -webkit-linear-gradient(50deg, #317773, #E2D1F9);
     margin: auto;
     padding: 5%;
     text-align: center;
