@@ -14,11 +14,11 @@ export default function Home () {
                         duration: 2
                     }}
                     >
-                    <h1 className="display-3 hero-title"> Hi, I'm 
-                        <motion.span 
+                    <h1 className="display-3 hero-title"> Hello! I'm 
+                        <span className="name-span"> Bethany Keplinger.</span>
+                    </h1>
 
-                        className="name-span"> Bethany Keplinger.</motion.span></h1>
-                        <p className="lead subtitle">I'm a Software Engineer. </p>
+                        <p className="lead subtitle">I'm a Software Engineer and nature super fan 🌿</p>
                 </motion.div>
 
                 <div className="button-container">
