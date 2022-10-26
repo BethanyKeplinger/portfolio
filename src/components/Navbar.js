@@ -4,12 +4,14 @@ import resume from "../files/resume.pdf";
 
 export default function Navbar() {
     return (
-        // <header className="md:sitcky">
+        <header className="md:sitcky">
                 <nav className="navbar navbar-dark navbar-expand-lg bg-dark">
                     <div className="container-fluid"> 
                             <motion.a
                                 whileHover={{scale:1.2}} 
-                                href="#home" className="navbar-brand">B | K</motion.a>
+                                href="#home" className="navbar-brand">B | K
+                            </motion.a>
+
                             <button 
                                 className="navbar-toggler" 
                                 type="button" 
@@ -24,7 +26,7 @@ export default function Navbar() {
 
                             <div className="collapse navbar-collapse" id="navbarNav">
 
-                                <ul className="navbar-nav ms-auto mb-auto mb-lg-0 ">
+                                <ul className="navbar-nav text-center ms-auto mb-auto mb-lg-0">
 
                                     <li className="nav-item">
                                         <a href="#about" className="nav-link active" aria-current="page">About</a>
@@ -34,23 +36,18 @@ export default function Navbar() {
                                         <a href="#projects" className="nav-link">Projects</a>
                                     </li>
 
-                                    {/* <li className="nav-item">
-                                        <a href="#skills" className="nav-link">Skills</a>
-                                    </li> */}
-
                                     <li className="nav-item">
                                         <a href="#contact" className="nav-link">Contact</a>
                                     </li>
 
                                     <li className="nav-item">
-                                        <a className="btn btn-sm btn-outline-secondary resume-button-nav" href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
+                                        <a className=" nav-link btn btn-sm btn-outline-secondary resume-button-nav" href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
                                     </li>
                     
                                 </ul>
                             </div>
                     </div>
                 </nav>
-        // </header>
-    )
-    
+        </header>
+    )  
 }
