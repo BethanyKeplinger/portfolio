@@ -42,12 +42,14 @@
 }
 
 .project-photo {
-    padding: 2%;
+    padding: 5%;
+    /* margin: auto;
+    display: flex; */
 }
 
 .gallery {
-    height: 300px;
-    width: 450px;
+    /* height: 300px;
+    width: 450px; */
     max-width: 100%;
     max-height: auto;
     display: block;
