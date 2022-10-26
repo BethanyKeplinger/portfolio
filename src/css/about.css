@@ -1,9 +1,10 @@
 #about {
     min-height: 450px;
-    background-color: #f7f2fa;
+    /* background-color: #f7f2fa; */
     display: flex;
     color: black;
     font-weight: 600;
+    background: -webkit-linear-gradient(50deg, #317773, #E2D1F9);
 }
 
 .about-section {
