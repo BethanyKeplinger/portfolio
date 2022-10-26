@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 
 export default function Home () {
     return (
-        <section id="home" className="jumbotron ">
+        <section id="home" className="jumbotron jumbotron-fluid ">
             <div id="container home-container">
                 <motion.div 
                     animate={{
@@ -18,7 +18,8 @@ export default function Home () {
                         <span className="name-span"> Bethany Keplinger.</span>
                     </h1>
 
-                        <p className="lead subtitle">I'm a Software Engineer and nature super fan 🌿</p>
+                    <p className="lead subtitle">I'm a Software Engineer.</p>
+                    {/* and nature super fan 🌿 */}
                 </motion.div>
 
                 <div className="button-container">
