@@ -2,7 +2,8 @@ import photo1 from "./img/profile-view.png";
 import photo2 from "./img/react-movie-view.png";
 import photo3 from "./img/MeetApp.png";
 import photo4 from "./img/chatapp.png";
-import photo5 from "./img/charmander.png";
+// import photo5 from "./img/charmander.png";
+import photo6 from "./img/plantzone.png";
 // import casestudy1 from "./components/CaseStudy1";
 
 export const projects = [
@@ -25,7 +26,7 @@ export const projects = [
         image: photo2,
         linkdemo: "https://myflix2022.netlify.app/",
         linkcode: "https://github.com/BethanyKeplinger/myFlix-client",
-        login: "Username: testing1234 Password: testing1234"
+        login: "Username: test1234 Password: test1234"
     },
     
     {
@@ -48,13 +49,24 @@ export const projects = [
         login: ""
     },
 
+
     {
-        title: "Pokedex App",
+        title: "Planting Zones Finder",
         subtitle: "JavaScript | HTML | CSS | Bootstrap",
-        description: "The app retrieves information for the Pokemon from an API called PokeApi. Users are able to view a list of pokemon and are able to click to see more details about each pokemon.",
-        image: photo5,
-        linkdemo: "https://bethanykeplinger.github.io/Pokedex-App/",
-        linkcode: "https://github.com/BethanyKeplinger/Pokedex-App",
+        description: "The Planting Zones Finder retrieves information for the Zones from an API called phzmapi. Users are able to enter their zipcode into the input container and then are given the zone that they are located in, along with the temperature minimums of their area.",
+        image: photo6,
+        linkdemo: "https://bethanykeplinger.github.io/Hardiness-Zones/",
+        linkcode: "https://github.com/BethanyKeplinger/Hardiness-Zones",
         login: ""
-    }
+    },
+
+    // {
+    //     title: "Pokedex App",
+    //     subtitle: "JavaScript | HTML | CSS | Bootstrap",
+    //     description: "The app retrieves information for the Pokemon from an API called PokeApi. Users are able to view a list of pokemon and are able to click to see more details about each pokemon.",
+    //     image: photo5,
+    //     linkdemo: "https://bethanykeplinger.github.io/Hardiness-Zones/",
+    //     linkcode: "https://github.com/BethanyKeplinger/Pokedex-App",
+    //     login: ""
+    // }
 ]
